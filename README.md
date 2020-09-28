@@ -167,7 +167,7 @@ https://www.fghrsh.net/post/170.html
 2020年1月1日起，本项目不再依赖于 jQuery。
 
 
-安装方法：
+## 安装方法：
 1. Hexo博客本身是支持看板娘的，但是原本的只有一个人物，一点也不好玩，stevenjoezhang大佬写了一个可以说话，可以换装的看板娘项目并开源，使用起来也是非常的方便。
 首先访问 [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 的 Github 仓库，点击右上角 Fork 该项目到自己的仓库：
 
