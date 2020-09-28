@@ -172,13 +172,17 @@ https://www.fghrsh.net/post/170.html
 首先访问 [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 的 Github 仓库，点击右上角 Fork 该项目到自己的仓库：
 
 2. 修改 /themes/hexo-theme-next/layout/_layout.swing 文件，在最后添加下面这行代码：
+
 `<script src="https://cdn.jsdelivr.net/gh/Mculover666/live2d-widget/autoload.js"></script>`
 
 3. 编辑主题配置文件 /themes/hexo-theme-next/_config.yml，添加如下内容：
+
 \# \---------------------------------------------------------------
-# 自定义看板娘
-# ---------------------------------------------------------------
+\# \自定义看板娘
+\# \---------------------------------------------------------------
 ```
 live2d:
   enable: true
 ```
+
+教程引用：[https://mculover666.blog.csdn.net/article/details/99696919](https://mculover666.blog.csdn.net/article/details/99696919)
