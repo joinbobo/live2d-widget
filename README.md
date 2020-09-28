@@ -165,3 +165,20 @@ https://community.live2d.com/discussion/140/webgl-developer-licence-and-javascri
 https://www.fghrsh.net/post/170.html
 
 2020年1月1日起，本项目不再依赖于 jQuery。
+
+
+安装方法：
+1. Hexo博客本身是支持看板娘的，但是原本的只有一个人物，一点也不好玩，stevenjoezhang大佬写了一个可以说话，可以换装的看板娘项目并开源，使用起来也是非常的方便。
+首先访问 [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) 的 Github 仓库，点击右上角 Fork 该项目到自己的仓库：
+
+2. 修改 /themes/hexo-theme-next/layout/_layout.swing 文件，在最后添加下面这行代码：
+`<script src="https://cdn.jsdelivr.net/gh/Mculover666/live2d-widget/autoload.js"></script>`
+
+3. 编辑主题配置文件 /themes/hexo-theme-next/_config.yml，添加如下内容：
+# ---------------------------------------------------------------
+# 自定义看板娘
+# ---------------------------------------------------------------
+```
+live2d:
+  enable: true
+```
